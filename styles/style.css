@@ -1,0 +1,172 @@
+html, body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+textarea {
+    resize: none;
+}
+.container {
+    display: block;
+    background-color: #7dc1f0;
+    padding: 100px 0 150px;
+    box-sizing: border-box;
+}
+.contacts {
+    display: flex;
+    margin: 0 auto;
+    max-width: 550px;
+    background-color: #fff;
+    position: relative;
+    justify-content: flex-end;
+    border-radius: 1px;
+    box-shadow: 0 0 30px #55859e;
+}
+/*right side*/
+.contact-forms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px 50px 54px 250px;
+    box-sizing: border-box;
+}
+.contact-forms h2 {
+    font-size: 21px;
+    color: #0f3e68;
+    font-weight: 600;
+}
+.contact-forms p {
+    padding: 10px 0;
+    font-size: 12px;
+    color: #a3aab0;
+}
+.contact-forms form textarea {
+    height: 80px;
+}
+.contact-forms form input, textarea{
+    width: 250px;
+    padding: 9px 15px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    color: #3f4e66;
+    background-color: #f8f9fb;
+    border: 1px #f9f9f9 solid;
+    border-radius: 6px;
+    transition: 300ms ease;
+}
+.contact-forms form input:focus, textarea:focus {
+    border: 1px #ece5e5 solid;
+    color: #3f4e66;
+    transition: 300ms ease;
+}
+.contact-forms button {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to bottom, #90cbf7, #5eade5);
+    border: none;
+    border-radius: 40px;
+    padding: 10px 32px 9px;
+    color: #d9ffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 8px;
+    box-shadow: 0 3px 10px #5eb0ea;
+    transition: 300ms ease;
+}
+.contact-forms button:hover {
+    background: linear-gradient(to bottom, #84beeb, #54a1d8);
+    transition: 300ms ease;
+    cursor: pointer;
+}
+.contact-forms button:active {
+    background: linear-gradient(to bottom, #84beeb, #54a1d8);
+    transition: 300ms ease;
+}
+/*left side*/
+.contacts-menu {
+    height: 340px; 
+    width: 250px;
+    background-color: #0f3f6f;
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    box-shadow: 0 0 20px #325b72;
+    border-radius: 1px;
+}
+.contacts-menu h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #daf4ff;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px 0 27px 20px;
+}
+.contacts-bar {
+    display: flex;
+    padding-left: 20px;
+}
+.contacts-bar i>a {
+    padding: 15px;
+}
+.contacts-bar i {
+    color: #336393;
+}
+.contacts-bar-links a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #8eb9e4;
+    margin-bottom: 25px;
+    padding-top: 2px;
+}
+.contacts-bar-icons {
+    display: flex;
+    flex-direction: column;
+}
+.contacts-bar-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 17px;
+}
+.contacts-bar-links a:last-child {
+    font-family: sans-serif;
+    color: #7395bd;
+}
+.contacts-bar-icons i:first-child {
+    font-size: 19px;
+}
+.contacts-bar-icons i:nth-child(2) {
+    margin-top: 39px;
+    font-size: 13px;
+}
+.contacts-bar-icons i:nth-child(3) {
+    margin-top: 29px;
+    font-size: 15px;
+}
+.contacts-bar-icons i:nth-child(4) {
+    margin-top: 21px;
+    margin-left: 3px;
+    font-size: 20px;
+}
+.contacts-socials {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+}
+.contacts-socials i{
+    padding-right: 20px;
+    font-size: 18px;
+    color: #446c8f;
+}
